@@ -1,0 +1,37 @@
+body
+{
+    color: rgb(255, 255, 255);
+    background-color: pink;
+}
+
+
+#heading
+{
+   width: 80%;
+   font-size: 30px;
+}
+
+   
+#h3_1 {
+    font-size: 18px;
+}
+
+
+
+#camera {
+    width: 350px;
+    height: 300px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+#object
+{
+    color: red;
+}
+
+#accuracy
+{
+    color: red;
+}

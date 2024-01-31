@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>image recongination</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <center>
+                <h3 class="btn btn-info" id="heading">Face recongination</h3>
+                <br><br>
+
+                <h3 id="h3_1">model is trained to identify :
+                    <br><br>
+
+                    <b>Cristiano ronaldo</b>
+                    <hr>
+                    <b>messi</b>
+                    <hr>
+                    <b>Techno gamerz</b>
+                    <hr>
+                    <b>Bulky star</b>
+                    <hr>
+                    <b>Shah rukh khan</b>
+                    <hr>
+                    <b>Akshay Kumar</b>
+                </h3>
+
+                <br>
+                <h5>Webam view.</h5>
+                <div id="camera"></div>
+                <br><br>
+
+                <button class="btn btn-info" onclick="capture()">Capture Image</button>
+                <button class="btn btn-success" onclick="check()">Identify Image</button>
+                <br><br>
+
+
+                <h4 id="object">object:</h4>
+                <h4 id="accuracy">accuracy:</h4>
+                
+
+            </center>
+        </div>
+    </body>
+    <script src="java.js"></script>
+        
+</html>
